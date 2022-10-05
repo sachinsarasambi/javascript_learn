@@ -1,0 +1,10 @@
+console.log("hELLO");
+console.info("My full name is sachin sarasambi");
+console.info("I like Playing");
+console.info("i like swimming");
+console.info("I like reading book");
+console.warn("my weakness is poor cummunicstion");
+console.info("my weakness is lack of confidence");
+console.info("my wekaness is public speaking speech");
+console.log(30+40);
+console.log(49*479);
