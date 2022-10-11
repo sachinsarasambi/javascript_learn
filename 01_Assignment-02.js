@@ -10,7 +10,7 @@ cuite=temp;
 console.log("-----------------------");
 console.log("After swap");
 console.log("sweety = "+sweety);
-console.log("cuite = "+ cuite);
+console.log("cuite = "+cuite);
 
 
 console.log("---------------------------------------------")
