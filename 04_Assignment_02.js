@@ -30,26 +30,6 @@ var stringHandson=function(){
     console.log("================starting start wuth 'hey' word=========================");
 
     console.log(string.trim().includes("Hey"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
 }
 
 stringHandson();
