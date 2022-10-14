@@ -16,11 +16,12 @@ maleMarriageEligibility("Male",17,"Stev Jobs");
 console.log("=============================================================");
 
 function femaleMarriageEligibility (gender,age,girlName){
-    
-    var res=gender="Femalele" && age>=21
-    ? `Hey ${girlName} you are eligible for marrige`:
-    ` Not eligible for marrige`;
-    console.log(res);
+   if (age>=18) {
+        console.log(`Hey ${girlName} you are eligible for marrige`);
+    } else {
+        console.log(`Hey ${girlName} you are NOT eligible for marrige`);
+    }
+    return;
 }
 femaleMarriageEligibility("Female",16,"Jenifer");
 femaleMarriageEligibility("Female",27,"Malinda Gates");
@@ -74,4 +75,4 @@ femaleMarriageEligibility("Female",27,"Malinda Gates");
 //     }    
 // }
 // femaleMarriageEligibility("Female",16,"Jenifer");
-femaleMarriageEligibility("Female",27,"Malinda Gates");
+// femaleMarriageEligibility("Female",27,"Malinda Gates");
