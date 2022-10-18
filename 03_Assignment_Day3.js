@@ -1,3 +1,5 @@
+
+
 //Funcation Expression 
 var squre =function (a) {
     console.log(a*a);
