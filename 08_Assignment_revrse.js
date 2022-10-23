@@ -7,7 +7,7 @@ function reverseString(arg1) {
     var reverseStr="";
     for (let i =strlen; i>=0 ; i--) {
         console.log(arg1.charAt(i));
-        reverseStr=reverseStr+arg1.charAt(1);
+        reverseStr=reverseStr+arg1.charAt(i);
       
         
     }
