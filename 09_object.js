@@ -5,6 +5,12 @@ const mohitPerson =  {
     age: 42,
     "isMarried": true
 }
+ console.log("=========== in operator================"); //To use in opretor
+let isAvailable = "fullName" in mohitPerson;
+console.log(isAvailable);
+console.log("city" in mohitPerson);
+console.log("===========================");
+
 
 console.log(Object.entries(mohitPerson));
 console.log(Object.keys(mohitPerson));
