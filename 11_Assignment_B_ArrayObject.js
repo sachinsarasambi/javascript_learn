@@ -4,7 +4,7 @@ class Bank {
                  this.location=location,
                  this.accountNo=accountNo,
                  this.ifscCode=ifscCode,
-                 this.interestRate=interestRate
+                 this.interestRate=interestRate  
     }
 }
 
@@ -51,6 +51,7 @@ for (let index = 0; index < allBank.length; index++) {
     console.log(element.bankName,element.location,element.accountNo,element.ifscCode,element.interestRate);
    
 }
+console.log("==========================Log element===================================");
 
 
 for (const element of allBank) {
